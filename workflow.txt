@@ -129,3 +129,21 @@ so we will use bcyrpt module to hashit but we have to use add some salt value
 
 location of data 
 https://cloud.mongodb.com/v2/668515a81e802d5ac2c5ea67#/metrics/replicaSet/6685166d2ef8322264047a2e/explorer/mern-estate/users/find
+
+so far so good 
+now we will use middleware in index.js to show error 
+we will also define manual error that we may have to show in some case 
+with manual status code and manual message  [api -> utils->error.js]
+
+
+app.use((err, req, res, next) => {
+
+
+error is error thrown by server
+request added by browser
+response received by browser
+next it is used to use middleware
+
+if we have to use middleware 
+we can use it as:
+next(message)
