@@ -95,3 +95,19 @@ since we are connected to database
 so in order to prevent entry we have to define constraint  
 so in api folder we will main user.model.js 
 there we will define constraint for name, email, password, timstamp
+
+now we will define various router at backend 
+so main skeleton will be index.js from api folder 
+here we will import various router 
+and will give redirect as 
+app.use("/api/user", userRouter);
+and actual url will be 
+localhost:3000/api/user/test[go to original file to check for end point ]
+
+there are three level nesting 
+index.js -> user.route.js -> user.controller.js 
+
+index.js -> base url  
+user.route.js -> end point
+user.controller.js -> defintion
+

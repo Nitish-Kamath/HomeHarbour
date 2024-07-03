@@ -1,11 +1,13 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import userRouter from "./routes/user.route.js";
 
 dotenv.config();
-// express is used for creating
 
-// backend server
+// express is used for creating backend server
+// all routes will be imported here and will be given base url, end point will be defined from
+// imported location
 
 mongoose
   .connect(process.env.MONGO)
@@ -15,6 +17,9 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
+
 const app = express();
 
 app.listen(3000, () => console.log("server is running on port number 3000"));
+
+app.use("/api/user", userRouter);
