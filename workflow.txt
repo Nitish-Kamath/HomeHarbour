@@ -111,3 +111,21 @@ index.js -> base url
 user.route.js -> end point
 user.controller.js -> defintion
 
+
+now we will create signup route api 
+to check for this we can use 
+insomnia or postman 
+
+by default we cann't send json to web server 
+but using app.user(express.json()) we can do it
+
+now since we are sucessfully able to connnect to database 
+now we will destructure all details
+and will save to database 
+and will check for any error using try and catch block
+
+password is saved in database as it is 
+so we will use bcyrpt module to hashit but we have to use add some salt value 
+
+location of data 
+https://cloud.mongodb.com/v2/668515a81e802d5ac2c5ea67#/metrics/replicaSet/6685166d2ef8322264047a2e/explorer/mern-estate/users/find
