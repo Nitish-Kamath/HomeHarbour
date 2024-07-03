@@ -1,0 +1,16 @@
+ npm create vite@latest client
+
+
+using above  command we are using vite 
+and also folder will be created named client
+folder contains public src folder and some other package.json ,index.html along with some other files 
+
+here we are given option 
+react -> javascript + swc(lighter and faster)
+
+then go inside client folder 
+and use npm i 
+to install all dependencies of package.json 
+
+after that we will use install 
+tailwind vite 
