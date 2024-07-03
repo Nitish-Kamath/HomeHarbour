@@ -14,3 +14,7 @@ to install all dependencies of package.json
 
 after that we will use install 
 tailwind vite 
+
+now we will add all pages[about, profile, home, sigin, signout] inside src folder
+we have to install react-router-dom
+then we will add route in app.jsx
