@@ -69,3 +69,22 @@ kya mastcheez hai bhai
   },
 
 using node run dev/start we can control the command 
+
+
+CONNECT TO THE DATABASE
+now we will connect to mongodb online database 
+it will be facilitated by using mongoose 
+
+
+for mongodb 
+username : nitishkamath63590
+password : nitishkamath63590
+
+since we are uploading file on github or it is publicly available 
+it is not recommended to expose the mongodb path 
+that why we will use .env file 
+for use of that file we need to install dotenv 
+and will add this file to .gitignore
+
+to use it
+mongoose.connect(process.env.MONGO);
