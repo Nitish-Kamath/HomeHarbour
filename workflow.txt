@@ -18,3 +18,27 @@ tailwind vite
 now we will add all pages[about, profile, home, sigin, signout] inside src folder
 we have to install react-router-dom
 then we will add route in app.jsx
+
+
+now we will work on individual component like Header 
+here we will be having three section 
+logo ->search bar -> navigation items 
+
+
+ header will remain on top of each pages
+ that's why it is defined at top of routes
+
+ to install react icons 
+ we will use 
+ npm i react-icons
+
+
+now we will all adding navigation links to header 
+which will be remain invisible for small screens 
+here we will use link so that we can easily switch to another domain 
+without refreshing the page 
+
+to use it we have to wrap li in link tag
+ 
+ express is used for writing backend code and all apis 
+ nodemon is used so that we don't have to restart the server for each change
