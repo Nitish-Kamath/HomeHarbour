@@ -42,3 +42,30 @@ to use it we have to wrap li in link tag
  
  express is used for writing backend code and all apis 
  nodemon is used so that we don't have to restart the server for each change
+ 
+
+ now we will be having api(backend code) and client(frontend code)
+
+
+  to make package.json file 
+  npm init -y 
+  to add dependencies
+  npm i name
+
+
+to run the file from root directory 
+we will use command 
+node then file location 
+like 
+node api/index.js
+
+we use nodemon in development and node in production
+
+kya mastcheez hai bhai 
+
+ "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+
+using node run dev/start we can control the command 
