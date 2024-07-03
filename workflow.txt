@@ -88,3 +88,10 @@ and will add this file to .gitignore
 
 to use it
 mongoose.connect(process.env.MONGO);
+
+
+now we will create user model 
+since we are connected to database 
+so in order to prevent entry we have to define constraint  
+so in api folder we will main user.model.js 
+there we will define constraint for name, email, password, timstamp
