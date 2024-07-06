@@ -151,3 +151,15 @@ next(message)
 
 Now we will make a signup page ui 
 with field such as username email and password
+
+Now we will add functionality 
+and connect to the database
+
+here some thing to be noted
+that while filling the other field we have to keep other details as it is
+also while submit the form we wi  ll take care that page is not refreshed 
+to add base url we will modify vite.config.js
+
+if everything is successful we will redirec use to sigin page 
+here we have done error handling for same username and same email
+we have all make the button disabled 
