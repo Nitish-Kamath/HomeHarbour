@@ -147,3 +147,7 @@ next it is used to use middleware
 if we have to use middleware 
 we can use it as:
 next(message)
+
+
+Now we will make a signup page ui 
+with field such as username email and password
