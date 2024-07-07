@@ -185,3 +185,9 @@ now we will we do registration on sign up page
 then do log in on sign in page 
 now we will check cookie 
 also check with wrong usename and wrong password 
+
+
+
+=> Add Redux toolkit
+now we will use redux to store the cooking information and 
+make all the profile information global rather than passing that information to each page.
