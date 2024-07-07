@@ -191,3 +191,10 @@ also check with wrong usename and wrong password
 => Add Redux toolkit
 now we will use redux to store the cooking information and 
 make all the profile information global rather than passing that information to each page.
+
+
+=> Add redux persist 
+now we will add redux persist so that when we refresh the page 
+we are not log out 
+and user data is store on local machine 
+not any crucial information related to that user ony
