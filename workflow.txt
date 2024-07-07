@@ -174,3 +174,14 @@ it does not have any end time but have session time
 
 
 import needs curly braces for named exports and doesn't need them for the default one.
+
+since we have already defined route for sign in page 
+now we will define ui functionality and coneect to the database
+
+it will be somewhat similar to sign up page ui 
+
+=> Complete Sign In page Functionality
+now we will we do registration on sign up page 
+then do log in on sign in page 
+now we will check cookie 
+also check with wrong usename and wrong password 
