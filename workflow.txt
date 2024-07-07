@@ -163,3 +163,14 @@ to add base url we will modify vite.config.js
 if everything is successful we will redirec use to sigin page 
 here we have done error handling for same username and same email
 we have all make the button disabled 
+
+now we will define sign in api route in auth.controller.js file 
+
+next is a middleware
+
+now we have concept of jwt(json web token) that gives us a token 
+craeted usign id and it will be used to change the password and or do any activity after user log in 
+it does not have any end time but have session time 
+
+
+import needs curly braces for named exports and doesn't need them for the default one.
