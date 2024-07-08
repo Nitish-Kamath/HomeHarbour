@@ -198,3 +198,26 @@ now we will add redux persist so that when we refresh the page
 we are not log out 
 and user data is store on local machine 
 not any crucial information related to that user ony
+
+=> Add Google Auth functionality
+now we will try to do registration/log in with google account 
+fro this we have to set up firebase and give access
+in terms firebase shares email,username and profile image url 
+we have to set up .env file on client side
+now we will make frontend as well as backend for route 
+let suppose we are on registration so we need to store all value in database 
+we will use same email 
+for username we will convert into lowercase without space and some extra character
+we will manually make password , user can futher change it 
+
+let we are sign in so email, username and photourl will be local broswer 
+we will extract it,  make json object out of it and send it to backend for futher storage
+
+
+to use avatar we must define it in schema 
+so that we can save it 
+we need avatar to show image 
+by default in some case let suppose if user doesn't have that 
+then we can give them a default profile image 
+
+also each time Google Authentication is successful we must redirect to home page 
