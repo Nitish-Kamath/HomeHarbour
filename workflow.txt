@@ -277,3 +277,22 @@ Bhaiya development speed apne haat me nahi hai :)
 => Complete Profile Page UI 
 when user click on profile icon on header 
 it will redirect to profile page 
+
+
+=> Complete image upload Functionality
+so when user is on profile page 
+then on clicking on image, he may update the image 
+here we will make referece and add onclick event on image 
+
+we have to also modify the firebase 
+so that we have take access to storage and allow to upload 
+
+we will limit to upload of 2 mb of image file only 
+
+
+=> Complete Image Upload 
+now we will upload image 
+we will show transition from 0 to 100 
+we will also handle error for file upload 
+
+maintaining the previous session 
