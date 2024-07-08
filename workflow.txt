@@ -296,3 +296,11 @@ we will show transition from 0 to 100
 we will also handle error for file upload 
 
 maintaining the previous session 
+
+
+=> Create Update User Api Route
+here we will update the user info 
+if and only if user is verfied 
+so we will take cookie from browser and check
+so we will change user.route.js 
+and along with update we have to pass id because there may be many users
