@@ -272,3 +272,8 @@ If not authenticated (currentUser does not exist), it redirects the user to the 
 BT ho gya
 named .js file and wrote .jsx code
 Bhaiya development speed apne haat me nahi hai :)
+
+
+=> Complete Profile Page UI 
+when user click on profile icon on header 
+it will redirect to profile page 
