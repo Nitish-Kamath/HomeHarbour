@@ -221,3 +221,54 @@ by default in some case let suppose if user doesn't have that
 then we can give them a default profile image 
 
 also each time Google Authentication is successful we must redirect to home page 
+
+
+=> Update the Header and make the profile page private 
+here we aim at all page Authentication when user is log out 
+if anyone tries to directly open the profile page using url 
+then it must redirect to the sign in page 
+
+selector is use to select the state that is global 
+
+<Route element={<PrivateRoute />}>
+  <Route path="/profile" element={<Profile />} />
+</Route>
+
+
+PrivateRoute route is used to check if there is Authentication or not 
+if yes 
+the profile page will be rendered 
+if not then profile page will not be rendered
+
+
+<Link to="/profile">
+  {currentUser ? (
+    <img
+      className="rounded-full h-7 w-7 object-cover"
+      src={currentUser.avatar}
+      alt="profile"
+    />
+  ) : (
+    <li className="text-slate-700 hover:underline">Sign in</li>
+  )}
+</Link>
+
+
+
+If currentUser exists (meaning the user is authenticated), an <img> tag is rendered
+ displaying the user's avatar. 
+The src attribute of the <img> tag is populated with currentUser.avatar.
+
+If currentUser does not exist (user is not authenticated), a simple "Sign in" text link is rendered.
+
+
+
+PrivateRoute acts as a wrapper around routes that require authentication.
+It uses Redux (useSelector) to check if the currentUser is authenticated.
+If authenticated (currentUser exists), it renders the nested child routes (<Outlet />).
+If not authenticated (currentUser does not exist), it redirects the user to the /sign-in route (<Navigate to="/sign-in" />).
+
+
+BT ho gya
+named .js file and wrote .jsx code
+Bhaiya development speed apne haat me nahi hai :)
