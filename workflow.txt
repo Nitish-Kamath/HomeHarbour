@@ -304,3 +304,11 @@ if and only if user is verfied
 so we will take cookie from browser and check
 so we will change user.route.js 
 and along with update we have to pass id because there may be many users
+
+
+=> Add Delete User Functionality
+now we will delete user from database
+first we will check if id  is correct or not 
+if yes then we will delete and redirect to signin page 
+
+controller is the main location where all backend logic is defined 
