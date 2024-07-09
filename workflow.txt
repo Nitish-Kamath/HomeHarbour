@@ -312,3 +312,8 @@ first we will check if id  is correct or not
 if yes then we will delete and redirect to signin page 
 
 controller is the main location where all backend logic is defined 
+
+
+SIGN OUT IS NOT WORKING PROPERLY
+
+=> Add Create Listing Api
