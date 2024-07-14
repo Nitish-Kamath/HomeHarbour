@@ -325,3 +325,54 @@ we have to define the schema
 setup the database 
 first we have to set up listing Router 
 so index.js we will be affected 
+
+we will add all pages inside private route 
+when we want to have show that page only for authenticated user 
+
+so we have input filed and some check box 
+also the ui for image upload and button for create Listing 
+
+
+=> complete upload listing functionality
+so now we will 
+take help of use state since we may upload upto 6 files at a time
+and then we will call handleImageSubmit 
+which will check for number of images
+
+
+there may be naming convention issue when we upload same file twice
+so we will add time to file name  
+now this image url need to be upload on promises array 
+but it could be done via storeImage function 
+which take care one by one for each image 
+whether there is any upload error 
+if all okay 
+then we will make instance of firebase storage
+and using referece we will insert into it 
+we wil upload all image on firebase storage and 
+its url will be pushed into promise array 
+
+for each listing we can upload at max 6 image 
+
+we have to also add button for delete of image 
+at a time only two of thing may happen either there would be uploading 
+or there may be error 
+so in that way we will make a state of it.
+
+
+=> complete crate listing functionality
+now we will make handleChane method to track change 
+some field are boolean type 
+while some filed are some text type
+so using or condition we are here checking for that 
+
+sometime discounted price may be string while sometime it is number 
+but mongoDb will take care of it
+
+we have name, address, description as mandatory 
+
+we can only do listing with certain condition like 
+there must be atleast one image 
+discounted prices must be less than regular price 
+if we can only have discounted price option only when 
+there is offer 
