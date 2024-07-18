@@ -413,3 +413,15 @@ here we can delete listing of particular User
 we will check if there is any listing associated with that user
 we will check if they delete only their listing
 after delete, we will again run query and will update the available listings
+
+
+=> create update listing api Route
+first we will make route for updation 
+routes -> lsiting.route.js
+for updation:
+we will check if listing is present or not 
+we will check if user update only his listings
+
+we will take id and update the previous state 
+we will make {new:true}
+so that we will see updated state
