@@ -406,4 +406,10 @@ two bug found:
 first: when creating listing name of image not showing
 second: for a given user all listing are not showing 
 
+=> complete delete user listing functionality
 
+we have to define route for delete in route -> listing.route.js 
+here we can delete listing of particular User
+we will check if there is any listing associated with that user
+we will check if they delete only their listing
+after delete, we will again run query and will update the available listings
