@@ -379,3 +379,31 @@ there is offer
 
 for each user there is listing 
 other cann't see their listing
+
+
+=> complete Show user Listings functionality @6:44
+
+when user click on show Listing on Profile Page 
+He will be able to see all his listing
+here he can either edit it or may be delete it.
+
+
+show when we have to show sth 
+first we will clear the error 
+that may be caused due to previous state.
+
+
+here use click on show listing page all listing should be done 
+format should be image : image name and then two button 
+one for delete and other for edit 
+edit page redirect to craete listing page where you can modify the initial setup 
+
+
+NOTE:
+Due to Server issue 
+sometime show listings page won't work
+two bug found:
+first: when creating listing name of image not showing
+second: for a given user all listing are not showing 
+
+
