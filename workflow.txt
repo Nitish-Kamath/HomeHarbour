@@ -413,3 +413,39 @@ here we can delete listing of particular User
 we will check if there is any listing associated with that user
 we will check if they delete only their listing
 after delete, we will again run query and will update the available listings
+
+
+=> create update listing api Route
+first we will make route for updation 
+routes -> lsiting.route.js
+for updation:
+we will check if listing is present or not 
+we will check if user update only his listings
+
+we will take id and update the previous state 
+we will make {new:true}
+so that we will see updated state
+
+
+=> complete update listing functionality
+
+we willl make a new page 
+updateListing.jsx 
+
+in app.jsx 
+we will add new route with name update-listing
+
+functionality will be like 
+here we have we pass id so that c/s data will be fetched 
+and then we will click on update button 
+to save the updation  
+
+here we won't have verifyToken
+
+useEffect is itself asynchronous so we cann't make it async 
+but what we can do we can make another async method inside id and call call it
+from there only 
+
+when we are redirecting to updation page we will also pass the listingId 
+
+you can get unexpected token error if route is not defined properly 
