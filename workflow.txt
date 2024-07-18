@@ -360,7 +360,7 @@ or there may be error
 so in that way we will make a state of it.
 
 
-=> complete crate listing functionality
+=> complete create listing functionality
 now we will make handleChane method to track change 
 some field are boolean type 
 while some filed are some text type
@@ -376,3 +376,6 @@ there must be atleast one image
 discounted prices must be less than regular price 
 if we can only have discounted price option only when 
 there is offer 
+
+for each user there is listing 
+other cann't see their listing
