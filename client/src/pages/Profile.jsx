@@ -115,9 +115,9 @@ export default function Profile() {
     try {
       dispatch(signOutUserStart());
       const res = await fetch("/api/auth/signout");
-      console.log(res);
+      // console.log(res);
       const data = await res.json();
-      console.log(data);
+      // console.log(data);
 
       if (data.success === false) {
         dispatch(deleteUserFailure(data.message));
@@ -160,7 +160,7 @@ export default function Profile() {
         prev.filter((listing) => listing._id !== listingId)
       );
     } catch (error) {
-      console.log(error.message);
+      console.log(data.message);
     }
   };
   return (
