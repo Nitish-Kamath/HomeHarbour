@@ -425,6 +425,7 @@ we will check if user update only his listings
 we will take id and update the previous state 
 we will make {new:true}
 so that we will see updated state
+<<<<<<< HEAD
 
 
 => complete update listing functionality
@@ -449,3 +450,5 @@ from there only
 when we are redirecting to updation page we will also pass the listingId 
 
 you can get unexpected token error if route is not defined properly 
+=======
+>>>>>>> a3d72b346a3b6b60e046c7f9b2001380f18158fb
