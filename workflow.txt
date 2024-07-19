@@ -425,7 +425,6 @@ we will check if user update only his listings
 we will take id and update the previous state 
 we will make {new:true}
 so that we will see updated state
-<<<<<<< HEAD
 
 
 => complete update listing functionality
@@ -450,5 +449,26 @@ from there only
 when we are redirecting to updation page we will also pass the listingId 
 
 you can get unexpected token error if route is not defined properly 
-=======
->>>>>>> a3d72b346a3b6b60e046c7f9b2001380f18158fb
+
+=> Add Image Slider to the Listing Page 
+
+so now when on show listing item 
+when user click on name it will land it to new page 
+will show all data 
+so we will make a new page Listing.jsx 
+
+so in Listing.jsx file we will make useEffect to load data 
+
+now we will use Swiper module 
+to give sliding effect 
+it is used in navigation 
+
+
+In React.js, Swiper usually refers to a component or library used for creating touch-friendly and responsive sliders or carousels. It's commonly used for showcasing images, slides, or any content that needs to be swiped through on mobile or desktop interfaces.
+when ever we are using map we have to give a key for this 
+
+in Listing page image will be from first image that is uploaded
+and using Swiper we can Navigate to other image  
+
+
+bug : update Listing not working properly
