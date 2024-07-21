@@ -472,3 +472,15 @@ and using Swiper we can Navigate to other image
 
 
 bug : update Listing not working properly
+
+=> complete listing page 
+here we will more style all layout 
+like price 
+if rented or not 
+furnished or not 
+.... 
+and will give color and skeleton
+
+we will also check condition for number of bed 
+if number of greater than 1 => _ beds
+if 1 => _ bed 
