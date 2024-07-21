@@ -528,3 +528,12 @@ so we have to show all result from true or false
 same for others 
 
 => Complete header Search From functionality
+
+
+=> Complete Search Page UI 
+now we will make all beautiful ui for search page 
+left side will be filter and right side will be result 
+
+here we will make ui for 
+search Term 
+and give all type, amenities, sort and search button 
