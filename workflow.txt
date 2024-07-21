@@ -484,3 +484,18 @@ and will give color and skeleton
 we will also check condition for number of bed 
 if number of greater than 1 => _ beds
 if 1 => _ bed 
+
+=> Add contact landlord functionality to the listing page 
+
+if the currentUser is not the owner of property then we make a button contact landlord
+which enables currentUser to talk to the owner of the property
+
+now when currentUser click on contact landlord then all the user information will be passed to
+next page except the password 
+
+since we are moving to next page so we have to defin an new route 
+with verifyToken
+and also we will create route on 
+api -> controller -> user.controller.js 
+
+bug : not able to open mail window 
