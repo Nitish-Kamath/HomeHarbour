@@ -499,3 +499,32 @@ and also we will create route on
 api -> controller -> user.controller.js 
 
 bug : not able to open mail window 
+
+=> Create Search Api Route 
+we have to define new route in listing.route.js
+since anyone can search so verifyToken not required 
+
+and defintion of api 
+is defined on listing.controller.js page with name getListings
+
+here we aim that whenever user click on search icon or press enter button 
+search should be initiated
+for other filter initial vlaue would be undefined 
+
+when user click on search from filter 
+url should change and c/s result should be defined 
+
+and also when we change the seach url same change should be included in search bar 
+and result should be shown.
+
+by default only 9 result/listing will be shown
+
+using regex we can seach through word or even some consecutive letter 
+it check if search area in converted into lowercase 
+
+let suppose offer in not checked and yo click on search button from filter 
+so we have to show all result from true or false 
+
+same for others 
+
+
