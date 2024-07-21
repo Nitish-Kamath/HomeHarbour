@@ -88,13 +88,12 @@ export default function Search() {
           e.target.checked || e.target.checked === "true" ? true : false,
       });
     }
+    if (e.target.id === "sort_order") {
+      const sort = e.target.value.split("_")[0] || "created_at";
+      const order = e.target.value.split("_")[1] || "desc";
+      setSidebardata({ ...sidebardata, sort, order });
+    }
   };
-
-  if (e.target.id === "sort_order") {
-    const sort = e.target.value.split("-")[0] || "created_at";
-    const order = e.target.value.split("-")[1] || "desc";
-    setSidebardata({ ...sidebardata, sort, order });
-  }
 }
 
 const handleSubmit = (e) => {
