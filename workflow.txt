@@ -552,3 +552,9 @@ here we will make card and design the view of it
 => Add Show more Listings functionality
 so by default we can see only 9 listing 
 so using show more button we will able to see next 9 
+
+=> Complete Home Page 
+now we be having top section middle section and bottom section 
+in top section we will be having some information about website 
+in middle we will be having card using swiper 
+in bottom we will be having some offer items, rent items, sale items 
