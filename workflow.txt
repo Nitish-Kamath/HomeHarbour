@@ -548,3 +548,7 @@ all thing should work in synchronous
 
 now we will be making listitem.jsx 
 here we will make card and design the view of it 
+
+=> Add Show more Listings functionality
+so by default we can see only 9 listing 
+so using show more button we will able to see next 9 
