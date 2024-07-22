@@ -537,3 +537,14 @@ left side will be filter and right side will be result
 here we will make ui for 
 search Term 
 and give all type, amenities, sort and search button 
+
+
+=> Add onChange and onSubmit functionality to the search Page
+
+so there should be synchronous behaviour
+sidebardata, url data search term in right div and search term in left div 
+all thing should work in synchronous
+
+
+now we will be making listitem.jsx 
+here we will make card and design the view of it 

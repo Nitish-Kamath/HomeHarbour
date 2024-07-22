@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -11,9 +10,7 @@ export default function Home() {
   const [offerListings, setOfferListings] = useState([]);
   const [saleListings, setSaleListings] = useState([]);
   const [rentListings, setRentListings] = useState([]);
-
   SwiperCore.use([Navigation]);
-
   console.log(offerListings);
   useEffect(() => {
     const fetchOfferListings = async () => {
@@ -43,7 +40,7 @@ export default function Home() {
         const data = await res.json();
         setSaleListings(data);
       } catch (error) {
-        console.log(error);
+        log(error);
       }
     };
     fetchOfferListings();
